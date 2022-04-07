@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Batty_2._0.AudioManager">
+    <Position X="10" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAABAAiAAAAAQAAAAIAAIAAA=</HashCode>
+      <FileName>AudioManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Batty_2._0.GameForm" Collapsed="true">
+    <Position X="12" Y="9.75" Width="1.5" />
+    <Members>
+      <Field Name="btnBlue" Hidden="true" />
+      <Field Name="btnClear" Hidden="true" />
+      <Field Name="btnDefault" Hidden="true" />
+      <Field Name="btnGreen" Hidden="true" />
+      <Field Name="btnLoad" Hidden="true" />
+      <Field Name="btnPink" Hidden="true" />
+      <Field Name="btnRed" Hidden="true" />
+      <Field Name="btnSave" Hidden="true" />
+      <Field Name="btnSilver" Hidden="true" />
+      <Field Name="btnYellow" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="dgvHighScore" Hidden="true" />
+      <Field Name="dgvInstructions" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="errProvider" Hidden="true" />
+      <Field Name="grpEditorColor" Hidden="true" />
+      <Field Name="grpEditorLives" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="lblAlex" Hidden="true" />
+      <Field Name="lblBack" Hidden="true" />
+      <Field Name="lblBackHScore" Hidden="true" />
+      <Field Name="lblBallColor" Hidden="true" />
+      <Field Name="lblBallSpeed" Hidden="true" />
+      <Field Name="lblDan" Hidden="true" />
+      <Field Name="lblDerek" Hidden="true" />
+      <Field Name="lblEditor" Hidden="true" />
+      <Field Name="lblEditorBack" Hidden="true" />
+      <Field Name="lblEditorColor" Hidden="true" />
+      <Field Name="lblEditorLives" Hidden="true" />
+      <Field Name="lblEndContinue" Hidden="true" />
+      <Field Name="lblEndHScoreTitle" Hidden="true" />
+      <Field Name="lblEndLevel" Hidden="true" />
+      <Field Name="lblEndScore" Hidden="true" />
+      <Field Name="lblEndStatus" Hidden="true" />
+      <Field Name="lblEndTime" Hidden="true" />
+      <Field Name="lblExit" Hidden="true" />
+      <Field Name="lblFPS" Hidden="true" />
+      <Field Name="lblHighScore" Hidden="true" />
+      <Field Name="lblHScoreScore" Hidden="true" />
+      <Field Name="lblHScoreTitle" Hidden="true" />
+      <Field Name="lblInstrTitle" Hidden="true" />
+      <Field Name="lblInstructions" Hidden="true" />
+      <Field Name="lblIntroBatty" Hidden="true" />
+      <Field Name="lblLevel" Hidden="true" />
+      <Field Name="lblLevon" Hidden="true" />
+      <Field Name="lblLives" Hidden="true" />
+      <Field Name="lblMadeBy" Hidden="true" />
+      <Field Name="lblMatthew" Hidden="true" />
+      <Field Name="lblName" Hidden="true" />
+      <Field Name="lblOptBack" Hidden="true" />
+      <Field Name="lblOptionLives" Hidden="true" />
+      <Field Name="lblOptions" Hidden="true" />
+      <Field Name="lblOptionsTitle" Hidden="true" />
+      <Field Name="lblPaddleColor" Hidden="true" />
+      <Field Name="lblPaddleLength" Hidden="true" />
+      <Field Name="lblPaused" Hidden="true" />
+      <Field Name="lblRestart" Hidden="true" />
+      <Field Name="lblScore" Hidden="true" />
+      <Field Name="lblSound" Hidden="true" />
+      <Field Name="lblSoundOpt" Hidden="true" />
+      <Field Name="lblSrcCode" Hidden="true" />
+      <Field Name="lblSrcCode2" Hidden="true" />
+      <Field Name="lblStart" Hidden="true" />
+      <Field Name="lblTime" Hidden="true" />
+      <Field Name="lblTitle" Hidden="true" />
+      <Field Name="picBallColor" Hidden="true" />
+      <Field Name="picEdtHeart1" Hidden="true" />
+      <Field Name="picEdtHeart2" Hidden="true" />
+      <Field Name="picEdtHeart3" Hidden="true" />
+      <Field Name="picLives1" Hidden="true" />
+      <Field Name="picLives2" Hidden="true" />
+      <Field Name="picLives3" Hidden="true" />
+      <Field Name="picOptionLives1" Hidden="true" />
+      <Field Name="picOptionLives2" Hidden="true" />
+      <Field Name="picOptionLives3" Hidden="true" />
+      <Field Name="picPaddle" Hidden="true" />
+      <Field Name="picPaddleColor" Hidden="true" />
+      <Field Name="pnlEditor" Hidden="true" />
+      <Field Name="pnlEditorScreen" Hidden="true" />
+      <Field Name="pnlEndHScore" Hidden="true" />
+      <Field Name="pnlEndLevel" Hidden="true" />
+      <Field Name="pnlHighScore" Hidden="true" />
+      <Field Name="pnlInstructions" Hidden="true" />
+      <Field Name="pnlIntro" Hidden="true" />
+      <Field Name="pnlLevel" Hidden="true" />
+      <Field Name="pnlMenu" Hidden="true" />
+      <Field Name="pnlOptions" Hidden="true" />
+      <Field Name="pnlSrcCode" Hidden="true" />
+      <Field Name="tblBlockPos" Hidden="true" />
+      <Field Name="tblEnemyPos" Hidden="true" />
+      <Field Name="timerGame" Hidden="true" />
+      <Field Name="timerHScoreFlash" Hidden="true" />
+      <Field Name="timerIntro" Hidden="true" />
+      <Field Name="timerSrcCode" Hidden="true" />
+      <Field Name="timerTitleFlash" Hidden="true" />
+      <Field Name="trackBallSpeed" Hidden="true" />
+      <Field Name="trackPaddleSize" Hidden="true" />
+      <Field Name="txtName" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>kUuJuklMO/771TX+zs2Vrbz7HrayInEhXn0bTnMzTv4=</HashCode>
+      <FileName>BattyForm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="editorManager" />
+      <Field Name="gameManager" />
+      <Field Name="hScoreTable" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Batty_2._0.Controls">
+    <Position X="8" Y="0.75" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Batty_2._0.Controls.ControlType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Controls.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAABAgAEIAAAAAAAAgAAAAAAAABACAAAQAAEgAIABAA=</HashCode>
+      <FileName>Controls.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="instance" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Batty_2._0.Program">
+    <Position X="12" Y="8.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="BattyForm" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Ball">
+    <Position X="0.5" Y="6.25" Width="1.75" />
+    <AssociationLine Name="collisiondirections" Type="Direction">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.475" Y="0.093" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAUECAIAYQAAFCAAIAAAAAAJAAABAAEBgAAAAAEQAAE=</HashCode>
+      <FileName>Ball.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="collisionDirection" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="collisiondirections" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Bar">
+    <Position X="2.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAIAIQAABABAAAAAAAABAAAAAAACAAAAAAIAAAA=</HashCode>
+      <FileName>Bar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Block">
+    <Position X="7.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAQAAAAAAAIAAEAAAAAIAAAAAAg=</HashCode>
+      <FileName>Block.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bomb">
+    <Position X="9.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bomb.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionManager">
+    <Position X="18" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAQAACgAAAAAAAAAAAAAAAACCAAAACAAAABAA=</HashCode>
+      <FileName>CollisionManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EditorController">
+    <Position X="9.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAgMgIRAIAEACAAgAAgAAAIACAQAAAAIgAAAAAAAA=</HashCode>
+      <FileName>EditorController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="editingLevel" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Enemy">
+    <Position X="5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQACAAAQAAAAGAAgAAQAAACAAECAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Enemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameManager">
+    <Position X="14.5" Y="6.5" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="GameManager.GameState">
+        <TypeIdentifier>
+          <NewMemberFileName>GameManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>cYQo6QQUEFBSAwogIAEIQIASGwMCAQIjVABgRCKAKAU=</HashCode>
+      <FileName>GameManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="ball" />
+      <Field Name="bar" />
+      <Field Name="colManager" />
+      <Field Name="level" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="bombs" />
+      <Field Name="objects" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="GameObject">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="GameObject.GameObjectType">
+        <TypeIdentifier>
+          <NewMemberFileName>GameObject.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQAAAIABAAAAAAAAAAAAEAAEAABAACAAAAAAAAAYAA=</HashCode>
+      <FileName>GameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HighScoreTable">
+    <Position X="12" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAABAAAAAAAAAAAAAIAAAAAAAAQAAAAQIAAAAAQQAU=</HashCode>
+      <FileName>HighScoreTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Level">
+    <Position X="5.5" Y="11.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>EAAACFggAAIABADAgAAAIAAAAAAAQAABQAgAAAQREEQ=</HashCode>
+      <FileName>Level.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="blockList" />
+      <Field Name="enemies" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="SourceCodeController">
+    <Position X="12" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAACABAAAAAAAAAAAAAAAAAAIAAAAAQACA=</HashCode>
+      <FileName>SourceCodeController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Direction">
+    <Position X="0.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAgAAARAAAGAAAAAAAABggAAAAAAAAAA=</HashCode>
+      <FileName>Ball.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
